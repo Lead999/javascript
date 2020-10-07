@@ -1,0 +1,43 @@
+Community
+Random
+javascript
+
+mets7christian
+2 
+Oct '17
+<html>
+    
+<head>
+<title></title>    
+    <script> 
+
+ function multiplynums (num1,num2){
+  var thenumber1 = Number(num1);
+  var thenumber2 = Number(num2);
+  var theanswer =  thenumber1 * thenumber2;
+  
+  document.getElementById("answer").innerHTML= theanswer.tostring(); 
+
+ }
+     
+   </script>     
+    </head>
+
+<body>    
+
+<input type= "text" id="txtnumber1">
+*
+<input type= "text" id="txtnumber2">
+=
+<input type= "text" id="txtanswer">
+<input type="button" id="btnEnter" value="Enter"  onclick="multiplynums(txtnumber1.value,txtnumber2.value")>       
+  
+       
+    <p> the Answer is:</p> 
+    <p id="Answer"></p>
+    
+
+    
+    </body> 
+
+</html>
